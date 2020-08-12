@@ -141,6 +141,21 @@ Last, we found the `watch()` method, this method is what we will always use to d
 }
 ```
 
+Assume that we want to assign state `price` and `qty`, then calculate the `total` through the buttons click like this.
+
+```js
+reactive.watch((state) => {
+  const total = state.price * state.qty
+  return (
+    <>
+      <p>{state.price} x {state.qty} = {total}</p>
+      <button onClick={() => state.qty++} class="my-btn">Add Qty by 1</button>
+      <button onClick={() => state.price += 1000} class="my-btn">Add Price by 1000</button>
+    </>
+  )
+}) 
+```
+
 ---
 
 We're done, maybe you can learn more by trying it for yourself! Sorry for my bad english explanation.

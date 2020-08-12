@@ -1,6 +1,7 @@
 ## Simple Self-Made JS Reactivity with JSX (No REACT)
 
 ### Live [Demo](https://selfmade-reactivity.sutanlab.id)
+### Live [WIKI](https://sutanlab.js.org/selfmade-reactivity/)
 
 #### What is my purpose?
 In the Front-end worlds, "Reactivity" is something that everybody uses, but very few people understand. It’s no one's fault, really, as several people have different definitions of reactivity in programming.
@@ -14,7 +15,7 @@ Because that, I learn about "Reactivity" from scratch. Precisely, I loved Reacti
 So, i tried to make them work together by myself.
 
 #### Explanation
-First, i make reactivity class named `Reactive.js` in `src/lib` folder. Besides that, i uses [dom-chef]() for standalone JSX, (NO REACT INCLUDED).
+First, i make reactivity class named `Reactive.js` in `src/lib` folder. Besides that, i uses [dom-chef](https://github.com/vadimdemedes/dom-chef) for standalone JSX, (NO REACT INCLUDED).
 
 ```js
 /*

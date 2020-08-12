@@ -51,7 +51,7 @@ class Reactive {
 }
 ```
 
-Assume that we had the following data:
+For example, assume that we had the following data:
 ```js
 const state = {
   price: 1000,
@@ -141,7 +141,7 @@ Last, we found the `watch()` method, this method is what we will always use to d
 }
 ```
 
-Assume that we want to assign state `price` and `qty`, then calculate the `total` through the buttons click like this.
+Continue the example above, assume that we want to assign state `price` and `qty`, then calculate the `total` through the buttons click like this.
 
 ```js
 reactive.watch((state) => {

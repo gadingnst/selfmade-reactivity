@@ -122,11 +122,11 @@ Last, we found the `watch()` method, this method is what we will always use to d
     @param {Function => HTMLElement|JSX.Element} effect : callback function that return HTMLElement or JSX.Element
   */
   watch(effect) {
-    const { app, state: data } = this
+    const { app, state } = this
     this.depend(effect)
     this.notify()
-    Object.entries(data).forEach(([key, value]) => {
-      Object.defineProperty(data, key, {
+    Object.entries(state).forEach(([key, value]) => {
+      Object.defineProperty(state, key, {
         get: () => {
           this.depend(effect)
           return value

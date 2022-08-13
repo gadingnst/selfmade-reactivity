@@ -1,6 +1,6 @@
 ## Simple Self-Made JS Reactivity with JSX (No REACT)
 
-### Live [Demo](https://selfmade-reactivity.sutanlab.id)
+### Live [Demo](https://selfmade-reactivity.gading.dev)
 ### Live [WIKI](https://sutanlab.js.org/selfmade-reactivity/)
 
 #### What is my purpose?
